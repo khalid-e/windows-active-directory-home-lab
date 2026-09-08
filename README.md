@@ -35,3 +35,12 @@ I created two virtual machines in Oracle VirtualBox to simulate a small Windows 
 The virtualised environment allows me to practise Windows administration, identity management and troubleshooting without affecting my physical host system.
 
 ![Oracle VirtualBox environment showing Windows 11 Pro and Windows Server 2022 virtual machines](screenshots/01-virtualbox-environment.png)
+
+
+## Active Directory Domain Setup
+
+I installed Active Directory Domain Services (AD DS) on Windows Server 2022 and promoted the server to a Domain Controller for the `LAB.local` domain.
+
+Using Active Directory Users and Computers, I created organisational units for accounts and groups and created domain user accounts for centralised identity management.
+
+![Active Directory Users and Computers showing the LAB.local domain and user accounts](screenshots/02-active-directory-users.png)
