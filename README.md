@@ -52,3 +52,13 @@ I configured the Windows 11 Pro client to use the Domain Controller for DNS and 
 I then successfully signed into the workstation using a domain user account created in Active Directory, verifying domain connectivity and authentication.
 
 ![Windows 11 domain account and domain membership verification](screenshots/03-domain-client-verification.png)
+
+## Skills Demonstrated
+
+- Built and configured Windows 11 Pro and Windows Server 2022 virtual machines
+- Installed and configured Active Directory Domain Services (AD DS)
+- Promoted Windows Server 2022 to a Domain Controller
+- Created and managed Active Directory users and organisational units
+- Configured DNS for Active Directory client connectivity
+- Joined a Windows 11 Pro workstation to an Active Directory domain
+- Authenticated to a domain-joined workstation using an Active Directory account
