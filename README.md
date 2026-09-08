@@ -24,3 +24,14 @@ The lab provides a safe environment for practising user administration, permissi
 
 ### Networking
 - TCP/IP
+
+## Virtual Lab Setup
+
+I created two virtual machines in Oracle VirtualBox to simulate a small Windows enterprise environment:
+
+- **Windows Server 2022** — provides the server infrastructure for the Active Directory domain.
+- **Windows 11 Pro** — represents an end-user workstation that can be joined to and managed within the domain.
+
+The virtualised environment allows me to practise Windows administration, identity management and troubleshooting without affecting my physical host system.
+
+![Oracle VirtualBox environment showing Windows 11 Pro and Windows Server 2022 virtual machines](screenshots/01-virtualbox-environment.png)
