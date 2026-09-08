@@ -44,3 +44,11 @@ I installed Active Directory Domain Services (AD DS) on Windows Server 2022 and 
 Using Active Directory Users and Computers, I created organisational units for accounts and groups and created domain user accounts for centralised identity management.
 
 ![Active Directory Users and Computers showing the LAB.local domain and user accounts](screenshots/02-active-directory-users.png)
+
+## Domain-Joined Windows 11 Client
+
+I configured the Windows 11 Pro client to use the Domain Controller for DNS and joined the workstation to the `LAB.local` domain.
+
+I then successfully signed into the workstation using a domain user account created in Active Directory, verifying domain connectivity and authentication.
+
+![Windows 11 domain account and domain membership verification](screenshots/03-domain-client-verification.png)
