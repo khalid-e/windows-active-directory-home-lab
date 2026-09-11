@@ -58,7 +58,33 @@ I then successfully signed into the workstation using a domain user account crea
 - Built and configured Windows 11 Pro and Windows Server 2022 virtual machines
 - Installed and configured Active Directory Domain Services (AD DS)
 - Promoted Windows Server 2022 to a Domain Controller
-- Created and managed Active Directory users and organisational units
+- Created and administered Active Directory users, groups and organisational units
 - Configured DNS for Active Directory client connectivity
 - Joined a Windows 11 Pro workstation to an Active Directory domain
-- Authenticated to a domain-joined workstation using an Active Directory account
+- Managed user account provisioning, password resets and disabled accounts
+- Configured group-based NTFS permissions for departmental resources
+- Created and mapped shared network folders on a domain-joined workstation
+
+## Service Desk Support Scenarios
+
+I completed practical support scenarios within the lab to develop experience with common Windows and Active Directory administration tasks.
+
+### Ticket 001 — Disabled Domain Account
+Investigated a domain login issue, identified a disabled Active Directory account and restored user access.
+
+[View Ticket 001](tickets/001-disabled-domain-account.md)
+
+### Ticket 002 — Forgotten Password
+Reset a domain user's password, required a password change at next logon and verified successful authentication.
+
+[View Ticket 002](tickets/002-password-reset.md)
+
+### Ticket 003 — New Starter Account
+Created a new Active Directory domain account for an authorised new starter and verified domain authentication.
+
+[View Ticket 003](tickets/003-new-starter-account.md)
+
+### Ticket 004 — Finance Shared Folder Access
+Assigned a user to a departmental security group, configured group-based folder permissions and mapped the network share.
+
+[View Ticket 004](tickets/004-finance-folder-access.md)
